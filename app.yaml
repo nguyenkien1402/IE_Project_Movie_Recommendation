@@ -1,0 +1,10 @@
+runtime: python37
+
+handlers:
+  # This configures Google App Engine to serve the files in the app's static
+  # directory.
+- url: /datasets
+  static_dir: datasets
+
+- url: /.*
+  script: auto
