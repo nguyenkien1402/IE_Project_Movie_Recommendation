@@ -26,7 +26,8 @@ Movie_Recommendation_Notebook.ipynb: This notebook comprise the technique and th
 - Go to menu, choose the App Engine and create new standard environment.
 - Go the application, change the the credential to your credential you've created above
 - Open terminal, cd to the project and type the following cmd to deploy the app
-        -   gcloud app init
-        -   gcloud deploy app
+        
+        -   **gcloud app init**
+        -   **gcloud deploy app**
         
  More information about Google App Engine can be found [here](https://cloud.google.com/appengine/)
