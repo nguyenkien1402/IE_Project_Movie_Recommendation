@@ -19,12 +19,14 @@ Movie_Recommendation_Notebook.ipynb: This notebook comprise the technique and th
   5.  Change the parameter (which i already put the comment what to change) to your parameters such as: bucket_name, bucket_folder..
   6.  Run the notebook, the model will be automatically store in the your bucket folder
   
-  
+## Deploy the application
+
 - Import project to PyCharm.
 - Install Google Cloud SDK
 - Go to Google Console, search credential and create new credentail, save the file as a *<your-name-credential-.json* file in the project
 - Go to menu, choose the App Engine and create new standard environment.
 - Go the application, change the the credential to your credential you've created above
+- Change the bucket address and bucket name to your bucket
 - Open terminal, cd to the project and type the following cmd to deploy the app
         
         -   **gcloud app init**
